@@ -29,7 +29,6 @@ you wish to upload files to.
 Very simple:
 
 ```
-PUT /path/to/url
-Content
+curl HOST:PORT/path/to/file/in/repository -T ./local/path/to/upload
 ```
 
